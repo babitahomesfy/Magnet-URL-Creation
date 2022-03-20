@@ -1,0 +1,1216 @@
+﻿body {
+    line-height: 1;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.modal-content button.close {
+    background-color: #ff9b00 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    opacity: 1;
+    color: #152836;
+}
+
+html, .ButtonPart {
+    width: 100%;
+    float: left;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, p {
+    font-family: 'Lato', sans-serif !important;
+}
+p {
+    width: 100%;
+    float: left;
+    line-height: 21px;
+}
+.m-0{margin:0 !important;}
+.p-0 {padding: 0 !important;}
+.p-l-0 {
+    padding: 0 !important;
+}
+.nav-tabs > li {
+    margin-right: 20px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid #23b597;
+    color: #23b597;
+}
+.nav-tabs > li.active > a {
+    background-color: #23b597;
+    color:#fff;
+    padding:15px 20px;
+}
+.Logo2 {
+    width: 150px;
+    float: right;
+    margin: 39px 20px 0 0;
+}
+.nav-tabs > li.active > a {
+    background-color: #23b597 !important;
+    color: #fff !important;
+    padding: 10px 27px;
+}
+.nav-tabs{border-color:transparent;}
+.p-l-r {
+    padding-right: 0;
+    padding-left: 0;
+}
+.w-100 {
+    width: 100%;
+    float: left;
+}
+button.BorderButton {
+    border: 4px solid #ce7d00;
+    background-color: #fff;
+    color: #00182E;
+}
+button {
+    display: table;
+    margin: 10px auto;
+    background-color: #ff9b00;
+    padding: 10px 44px;
+    font-size: 18px;
+    border: 0;
+    color: #00182E;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px #373737;
+}
+sub {
+    bottom: -8px;
+    text-align: center;
+    display: table;
+    color: #aeaeae;
+}
+ol, ul {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    font-size: 72px;
+    background: #222;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    transition: all 500ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.navbar-default {
+    background: #fff;
+    border: 0px;
+    box-shadow: 2px 2px 13px #adadad;
+}
+
+.navbar-header {
+    width: 100%;
+    margin-bottom:5px;
+}
+.ContactNumber a.Number {
+    font-size: 24px;
+    margin-top: 15px !important;
+    width: 100%;
+    float: left;
+    color: #00182E;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+.ContactNumber a.Number i {
+    color: #20a367;
+    float: left;
+    width: 20%;
+}
+.ContactNumber a.Number span {
+    font-size: 19px;
+    width: 80%;
+    float: left;
+    padding: 4px 0 10px;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    padding: 10px 0;
+}
+
+    .navbar-brand > img {
+        display: block;
+        margin: 0 auto;
+        float: left;
+        transition: all 500ms cubic-bezier(0.55, 0, 0.1, 1);
+    }
+
+.navbar-right {
+    width: 100%;
+    background: #FF9B00;
+    margin-right: 0px;
+}
+
+.navbar-nav {
+    float: left;
+    font-size: 80%;
+}
+
+.navbar-default .navbar-nav > li {
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+header.sticky .pull-right.ContactNumber {
+    display: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #00182E;
+    font-size: 20px;
+    padding: 8px !important;
+}
+
+    .navbar-default .navbar-nav > li > a:hover{
+        color: #fff;
+        background-color: #F28A00;
+    }
+    .navbar-default .navbar-nav > li > a.active {
+        background-color: #ff9b00;
+        color: #fff;
+    }
+.navbar-default .social {
+    float: right;
+    margin-top: 8px;
+}
+
+    .navbar-default .social > li {
+        display: inline-block;
+        text-align: center;
+        float: none;
+        padding-left: 25px;
+    }
+
+        .navbar-default .social > li a {
+            color: #fff;
+        }
+
+.navbar-toggle {
+    float: right;
+    margin: 25px 0 -15px;
+    transition: all 500ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+header.sticky {
+    position: fixed;
+    font-size: 24px;
+    line-height: 48px;
+    height: 48px;
+    width: 100%;
+    background: #000000;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+    header.sticky .container {
+        width: inherit;
+    }
+
+    header.sticky .navbar-header {
+        width: 20%;
+        margin-bottom: 0px;
+        float: left;
+    }
+
+    header.sticky .navbar-brand {
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+        header.sticky .navbar-brand img {
+            padding-top: 11px;
+            width: 130px;
+            margin-right: 5px;
+        }
+
+    header.sticky .navbar-right {
+        width: 80%;
+        background: none;
+    }
+
+    header.sticky .navbar-nav {
+        float: right;
+    }
+
+    header.sticky .social {
+        display: none;
+    }
+
+    header.sticky .navbar-toggle {
+        float: right;
+        margin-top:11px;
+    }
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        font-size: 14px;
+    }
+
+    header.sticky .navbar-header {
+        width: 100%;
+    }
+
+    header.sticky .navbar-brand img {
+        padding-top: 7px;
+    }
+
+    header.sticky .navbar-right {
+        width: 100%;
+        background: none;
+        margin-top: 50px;
+    }
+
+    header.sticky .navbar-nav {
+        float: left;
+    }
+
+    .navbar-default .social {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+        .navbar-default .social > li {
+            padding-left: 15px;
+        }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand > img {
+        margin:0px auto 0;
+        max-width: 200px;
+    }
+
+    .navbar-default .social {
+        display: none;
+    }
+}
+.BanerSection {
+    width: 100%;
+    display: table;
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid;
+    border-radius: 10px;
+}
+    .BanerSection .Logo img {
+        width: 189px;
+        display: table;
+        margin: 0;
+    }
+    .BanerSection .BannerContent {
+        width: 46%;
+        position: absolute;
+        top: 40vh;
+        padding: 40px;
+    }
+.BanerSection .BannerContent img {
+    width: 100%;
+    max-width: 266px;
+    display: table;
+    text-align: left;
+    background-color: rgba(88, 88, 88, 0.6);
+    margin: 20px 0;
+    padding: 30px;
+}
+.Logo {
+    float: right;
+    position: static;
+    float:left;
+    top: 0;
+    z-index: 9999;
+    /* background-color: rgba(88, 88, 88, 0.6); */
+    padding: 5px 4px;
+    right: 0;
+}
+.BanerSection .BannerContent h3 {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.BanerSection .BannerContent p {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.BanerSection .RegisterForm {
+    width: 100%;
+    position: static;
+    top: 40vh;
+    right: 20vh;
+    padding: 11px 20px;
+    background: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 0px 0 10px 10px;
+    text-align:left;
+}
+.BanerSection .RegisterForm .RegisterTitle {
+    width: 100%;
+    float: left;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #094a20;
+    margin-top: 4px;
+    margin-bottom: 18px !important;
+}
+.offerSection {
+    width: 100%;
+    float: left;
+    padding: 14px 30px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.offerSection img {
+    background-color: transparent !important;
+    width: 79px !important;
+    float: left;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.offerSection span {
+    float: left;
+    color: #fff;
+    margin: 4px 0 0 10px;
+    font-size: 20px;
+}
+.BanerSection .RegisterForm input {
+    width: 100%;
+    float: left;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    outline: 0;
+    border-color: rgba(13, 36, 57, 0.5);
+    border-radius: 0;
+    margin-bottom: 10px;
+    box-shadow: none;
+    height: 23px;
+}
+
+.BanerSection .RegisterForm label {
+    color: rgba(13, 36, 57, 0.7);
+}
+.BanerSection .RegisterForm .Button {
+    background-color: #094a20;
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px #373737;
+}
+.Heading {
+    width: 100%;
+    float: left;
+    background-color: #ffff;
+    padding-bottom: 30px;
+}
+h2.MainTitle {
+    margin: 30px 0 32px;
+    padding: 0;
+    font-size: 84px;
+    font-weight: 300;
+    text-align: center;
+    color: #e7e7e7;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+    h2.MainTitle span {
+        font-size: 30px;
+        padding: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        font-weight: 500;
+        color: #999;
+        top: 68%;
+        line-height: 18px;
+    }
+
+    h2.MainTitle i {
+        color: #23b597;
+        font-family: 'Satisfy', cursive;
+        font-style: normal;
+    }
+/*===> Begin parralax-section <===*/
+.parralax-section {
+    position: relative;
+    position: relative;
+    z-index: 10;
+}
+
+.parallax-img {
+    position: absolute;
+    top: 0;
+    left: -150px;
+    z-index: 0;
+}
+
+    .parallax-img .animate {
+        animation: parallax-img 3.3s infinite ease-in-out;
+    }
+
+        .parallax-img .animate .parallax-right {
+            left: auto;
+            right: 0;
+        }
+
+        .parallax-img .animate .v-center {
+            top: 20%;
+        }
+
+        .parallax-img .animate .v-bottom {
+            top: 50%;
+        }
+
+        .parallax-img .animate.anim-delay {
+            animation-delay: 1.65s;
+        }
+
+.block-bg-projects {
+    background: url('../img/paralax-2.jpg') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+/*===> End parralax-section <===*/
+.OverViewSection .OverLaySection {
+    width: 100%;
+    float: left;
+    background-color: rgb(255,255,255);
+    border: 10px solid #ccc;
+    padding: 40px;
+}
+
+.OverViewSection {
+    width: 100%;
+    float: left;
+    background-image: url('../img/slant-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center right;
+    padding-bottom: 55px;
+}
+
+/**/
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn-lg {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #152836;
+}
+
+.btn-primary {
+    background-color: #152836;
+    border-color: #0e1a24;
+    color: #ffffff;
+}
+
+.btn-primary {
+    border-color: #eeeeee;
+    color: #eeeeee;
+    transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
+}
+
+.page-head h1 {
+    font-size: 42px;
+    margin: 0 0 20px;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+}
+
+    .page-head h1 .version {
+        bottom: 0;
+        color: #ddd;
+        font-size: 11px;
+        font-style: italic;
+        position: absolute;
+        width: 58px;
+        right: -58px;
+    }
+
+.demo-gallery > ul {
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+    .demo-gallery > ul > li {
+        margin-bottom: 15px;
+        width: 100%;
+        display: inline-block;
+        margin-right: 15px;
+        list-style: outside none none;
+    }
+
+        .demo-gallery > ul > li a {
+            border: 3px solid #FFF;
+            border-radius: 3px;
+            display: block;
+            overflow: hidden;
+            position: relative;
+            float: left;
+        }
+
+            .demo-gallery > ul > li a > img {
+                -webkit-transition: -webkit-transform 0.15s ease 0s;
+                -moz-transition: -moz-transform 0.15s ease 0s;
+                -o-transition: -o-transform 0.15s ease 0s;
+                transition: transform 0.15s ease 0s;
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+                height: 100%;
+                width: 100%;
+            }
+
+            .demo-gallery > ul > li a:hover > img {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                transform: scale3d(1.1, 1.1, 1.1);
+            }
+
+            .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+                opacity: 1;
+            }
+
+            .demo-gallery > ul > li a .demo-gallery-poster {
+                background-color: rgba(0, 0, 0, 0.1);
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                -webkit-transition: background-color 0.15s ease 0s;
+                -o-transition: background-color 0.15s ease 0s;
+                transition: background-color 0.15s ease 0s;
+            }
+
+                .demo-gallery > ul > li a .demo-gallery-poster > img {
+                    left: 50%;
+                    margin-left: -10px;
+                    margin-top: -10px;
+                    opacity: 0;
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transition: opacity 0.3s ease 0s;
+                    -o-transition: opacity 0.3s ease 0s;
+                    transition: opacity 0.3s ease 0s;
+                }
+
+            .demo-gallery > ul > li a:hover .demo-gallery-poster {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+.demo-gallery .justified-gallery > a > img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+}
+
+.demo-gallery .justified-gallery > a:hover > img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+    opacity: 1;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+}
+
+    .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+        left: 50%;
+        margin-left: -10px;
+        margin-top: -10px;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        -webkit-transition: opacity 0.3s ease 0s;
+        -o-transition: opacity 0.3s ease 0s;
+        transition: opacity 0.3s ease 0s;
+    }
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .video .demo-gallery-poster img {
+    height: 48px;
+    margin-left: -24px;
+    margin-top: -24px;
+    opacity: 0.8;
+    width: 48px;
+}
+
+.demo-gallery.dark > ul > li a {
+    border: 3px solid #04070a;
+}
+.tab-content > .active .demo-gallery {
+    border-right: 1px solid #ccc;
+    padding: 20px 0;
+}
+.InnerContent {
+    width: 100%;
+    float: left;
+    padding: 20px 10px;
+}
+.FloorDetail i {
+    float: left;
+    margin-right: 10px;
+}
+
+.FloorDetail {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.FloorList {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+    .FloorList ul {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+        /* list-style: circle; */
+    }
+
+        .FloorList ul li {
+            position: relative;
+            /* padding: 0; */
+            margin-bottom: 6px;
+            line-height: 19px;
+        }
+
+            .FloorList ul li:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 4px;
+                background-color: #1ea266;
+                width: 8px;
+                height: 8px;
+                line-height: 30px !important;
+                border-radius: 100%;
+            }
+/**/
+.Amenities {
+    background: url(../img/amenities.jpg) 0 0/cover no-repeat rgba(0,0,0,0);
+    height: 360px;
+    margin: 0 0 40px;
+    padding: 50px 0;
+    width: 100%;
+    float:left;
+}
+    .Amenities ul, .Location ul {
+        padding: 0;
+        margin: 0;
+    }
+    .Amenities ul li, .Location ul li {
+        margin-bottom: 15px;
+        color: #fff;
+        position: relative;
+    }
+        .Location ul li{padding:0 0 0 20px;}
+        .Amenities h4 {
+            color: #fff;
+            width: 100%;
+            float: left;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+.Amenities h4:after {content: '';position: absolute;left: 0;width: 67px;height: 3px;background-color: #fff;bottom: -11px;}
+
+    .Amenities ul li:before, .Location ul li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 8px;
+        height: 3px;
+        background-color: #feaf35;
+    }
+img.FirstImage {
+    height: 466px;
+}
+span.ClickContent {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    line-height: 40vh;
+    color: #fff;
+}
+span.ClickContent a {
+    color: #fff;
+    font-size: 3vw;
+    text-transform: capitalize;
+    text-decoration:none;
+}
+@media(max-width:767px){
+
+    .pull-right {
+        display: none;
+    }
+    header.sticky .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+        position: fixed;
+    }
+    .navbar-toggle {
+        position: absolute !important;
+        top: -5px;
+        right: 0;
+        margin: 15px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 13px;
+    }
+    .BanerSection .BannerContent {
+        width: 100%;
+        position: static;
+        top: 40vh;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        float: left;
+        background-color: #534f4f;
+    }
+    .BanerSection .RegisterForm {
+        width: 100%;
+        position: static;
+    }
+    .BanerSection:before{display:none;}
+    
+    .Amenities {
+        height: auto;
+        background-position: center;
+        margin-bottom:0;
+    }
+    .Amenities ul li, .Location ul li {
+        width: 100%;
+        float: left;
+    }
+    .Amenities .col-md-3.col-sm-3.col-xs-6:nth-child(3n) {
+        clear: left;
+    }
+    .offerSection img {
+        width: 42px !important;
+    }
+    .offerSection span {
+        font-size: 12px;
+    }
+    .BanerSection .BannerContent img {
+        background-color: rgba(255,255,255,1);
+        max-width:100%;
+    }
+}
+@media(max-width:767px) {
+    .offerSection {
+        padding: 14px 20px;
+    }
+    section#dynamic .row {
+        width: 100%;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    span.ClickContent {
+        line-height: 24vh;
+    }
+        span.ClickContent a{font-size:16px}
+        .nav-tabs > li {
+            margin-bottom: 11px;
+            width: 41%;
+            text-align: center;
+        }
+    .Heading {
+        padding: 10px 30px;
+        margin-bottom: 30px;
+    }
+    h2.MainTitle {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    h2.MainTitle span {
+        font-size: 20px;
+    }
+        h2.MainTitle span{top:98%;}
+        .Location {
+            padding: 20px !important;
+        }
+    .p-m-0{padding:0 !important;}
+}
+    @media(max-width:767px) {
+        .OverViewSection .OverLaySection {
+            padding: 40px 20px;
+        }
+
+        .InnerContent .col-md-4 {
+            margin-bottom: 20px;
+        }
+    }
+.SocialButton {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    display: none;
+}
+
+    .SocialButton ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        float: left;
+    }
+
+    .SocialButton li {
+        width: 50%;
+        float: left;
+        background: #4285f4;
+        margin-bottom: 0;
+        /* border-radius: 50%; */
+        padding: 10px;
+        font-size: 28px;
+        box-shadow: 2px 3px 18px #000;
+        color: #fff;
+        height: 45px;
+        display: inline-flex;
+        text-align: center;
+    }
+
+        .SocialButton li a i {
+            float: none;
+        }
+
+h3 {
+    text-transform: uppercase;
+}
+
+sub {
+    bottom: 35px;
+    text-align: center;
+    display: table;
+    float: left;
+    position: static;
+    margin-top: 20px;
+    color: #fff;
+    width: 80%;
+    font-size: 16px;
+    top: 17px;
+}
+
+.SocialButton li a {
+    width: 100%;
+    float: none;
+    text-align: center !important;
+    font-size: 36px;
+    /* text-align: left; */
+    margin: -4px auto;
+    color: #fff;
+    display: table;
+}
+
+.SocialButton li:last-child {
+    margin-left: 0;
+    background-color: #2BB842;
+}
+
+.Whatsapp {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #fff;
+    width: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+    bottom: 0px;
+    border-radius: 50%;
+    font-size: 47px;
+    box-shadow: inset -1px 1px 6px #333;
+}
+
+    .Whatsapp a {
+        color: #6a9600;
+    }
+
+@media (max-width:767px) {
+    .SocialButton {
+        display: block
+    }
+}
+/* Global 
+------------------------------------------------ */
+@charset "utf-8";
+
+html {
+    font-size: 100% !important;
+}
+
+/* Link */
+a, a:focus {
+    text-decoration: none;
+    opacity: 1;
+}
+
+    a:hover {
+        zoom: 1;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
+        text-decoration: none;
+    }
+
+    /* Remove Firefox selection dot */
+    a, a:focus, a:active, a:hover, object, embed {
+        outline: none !important;
+    }
+
+:-moz-any-link:focus {
+    outline: none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+/* Remove Firefox Dropdown selection dot */
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+/* Image */
+a img {
+    border: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+/* max-width:100% causes IE8 bug */
+
+div {
+    word-break: break-all;
+}
+
+
+
+/* Main 
+------------------------------------------------ */
+section.main-slider {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.carousel-control i {
+    position: absolute;
+    top: 43%;
+}
+/* Carousel Fading slide */
+.carousel-fade .item {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-fade .active.left,
+.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.carousel-fade .carousel-control {
+    z-index: 3;
+}
+
+.carousel-fade .next,
+.carousel-fade .prev {
+    left: 0;
+    z-index: 1;
+}
+
+
+
+/* Carousel Control */
+.carousel-control {
+    top: 0;
+    font-size: 48px;
+}
+
+/* Animation */
+.control-box, a.carousel-control, .carousel-indicators li {
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    /* hardware acceleration will cause Bootstrap carousel controlbox margin error in webkit browsers */
+    /* Assigning animation to indicator li will make slides flicker */
+}
+
+/* Removing BS background */
+.carousel .control-box {
+    opacity: 0;
+}
+
+a.carousel-control.left {
+    left: 0;
+    background: none;
+    border: 0;
+}
+
+a.carousel-control.right {
+    right: 0;
+    background: none;
+    border: 0;
+}
+
+/* Hover animation */
+.carousel:hover .control-box {
+    opacity: 1;
+}
+
+.carousel:hover a.carousel-control.left {
+    left: 15px;
+}
+
+.carousel:hover a.carousel-control.right {
+    right: 15px;
+}
+
+
+
+/* Carouse Indicator */
+.carousel-indicators li.active,
+.carousel-indicators li {
+    border: 0;
+}
+
+.carousel-indicators li {
+    background: #666;
+    margin: 0 3px;
+    width: 12px;
+    height: 12px;
+}
+
+    .carousel-indicators li.active {
+        background: #fff;
+        margin: 0 3px;
+    }
+
+
+
+/* Footer 
+------------------------------------------------ */
+footer.info {
+    text-align: center;
+    color: #888;
+    margin: 30px 0;
+}
+
+    footer.info p {
+        color: white;
+    }
+
+    @media(max-width:767px){
+        .Logo {
+            width: 117px;
+            margin: 0;
+            float: left;
+        }
+        .Logo2 {
+            width: 125px;
+            float: right;
+            margin: 21px 20px 0 0;
+        }
+        .BanerSection .RegisterForm .RegisterTitle {
+            font-size: 21px;
+        }
+    }

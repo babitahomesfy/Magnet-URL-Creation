@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>lodha quality homes</title>
+    <meta type="description" content="Lodha Launching 1bhk: Rs. 49.97 Lacs* and 2bhk: 82.99 Lacs+* At Majiwada, Thane." />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- social icon meta start -->
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Modern 2 & 3 BHK with luxury interior features and world-class amenities, developed by India’s No. 1 Developer">
+
+    <!-- social icon meta end -->
+
+    <link rel="stylesheet" href="thankyou-css/bootstrap.css">
+    <link rel="stylesheet" href="thankyou-css/style.css">
+
+
+</head>
+
+<body>
+    <header id="header" class="top-bar th-top-bar">
+        <div class="container">
+            <a href="index.html" class="th-Logo"><img src="img/logo.svg" class="img-fluid" alt="" style="height: 80px;"></a>
+            <!-- <a href="https://www.homesfy.in/" class="homesfy-logo" target="_blank"><img src="thankyou-images/HomesfyLogo.svg" alt=""></a> -->
+        </div>
+    </header>
+    <div class="body-content thanks-page">
+        <div class="thankyou-container text-center text-white">
+            <div class="container">
+                <div class="ty-cont">
+                    <h2 class="text-center"><i class="fa fa-check"></i> Thank You</h2>
+                    <strong>Our expert will get in touch with you to share all details in regards to the project</strong>
+                </div>
+                <div class="helpful-content">
+                    <div class="helping">
+                        <h4>FOR IMMEDIATE ASSISTANCE</h4>
+                        <!-- <div class="help-item">
+                            <a href="tel:" class="btn btn-primary phone_url" type="tel"><img src="img/phone.webp" alt=""> <span class="phone_no ">8792740034</span></a>
+                            <a href="" class="btn btn-success whatsapp_url">Chat On <img src="img/whatsapp.webp" alt=""></a>
+                        </div> -->
+                    </div>
+                    <!-- <div class="social-icons">
+                        <label class="d-block">Share it With Your Friends and Help Them Get A Dream Home</label>
+                        <div class="sc-icons">
+                            <a href="https://www.facebook.com/homesfy" class="fa fa-facebook-square" target="_blank"></a>
+                            <a href="https://twitter.com/homesfy?lang=en" class="fa fa-twitter" target="_blank"></a>
+                            <a href="mailto:info@homesfy.in" class="fa fa-google-plus"></a>
+                            <a href="https://www.linkedin.com/company/craft-property/" class="fa fa-linkedin" target="_blank"></a>
+                            <a href="https://www.instagram.com/homesfyindia/?igshid=1hua89m9py0ue" class="fa fa-instagram" target="_blank"></a>
+                        </div>
+                    </div> -->
+                    <div class="back_link">
+                        <h3><a href="index.html"><i class="fa fa-undo" aria-hidden="true"></i> BACK TO HOMEPAGE</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- End Google Tag Manager (noscript) -->
+    <script>
+        const api_url = "https://api.homesfy.in/api/leads/projectdata/328";
+        var phone_no,whatsapp_url;
+        async function getapi(url) {
+            const response = await fetch(url);
+            var data = await response.json();
+          phone_no=data.result.phone;
+         whatsapp_url=data.result.wp_links_sms;
+           whatsapp_url = whatsapp_url.split("=");
+                whatsapp_url[2] = "I want to know more about " + whatsapp_url[2];
+                whatsapp_url = whatsapp_url.join("=");
+            $(".phone_url").attr("href", "tel:" + phone_no + "");
+                $(".whatsapp_url").attr("href", whatsapp_url + ".");
+                $(".phone_no").html(phone_no);
+        }
+        getapi(api_url);
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TGWT6WC');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGWT6WC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+﻿
+
+
+<HTML>
+<head>
+    <script>
+        // This example displays a marker at the center of Australia.
+        // When the user clicks the marker, an info window opens.
+
+        function initMap() {
+            var Thane = {lat:19.2166571, lng:72.9728004};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: Thane
+            });
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h1 id="firstHeading" class="firstHeading">Northern Lights by Shapoorji Pallonji</h1>'+
+                '<div id="bodyContent">'+
+                '<p><b>Address: </b>Pokharan Rd Number 2, Subhash Nagar, Thane West, Thane, Maharashtra 400606</p>'+
+                '<p><b>Hours:</b>  Closes 6:30PM</p>'+
+                '<p><b>Phone:</b> <a href="tel:07575066061"> 07575066061</a></p>'+
+                '<p>'+
+                '</div>'+
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: Thane,
+                map: map,
+                title: 'Shapoorji Pallonji Thane Project'
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+
+    <style>
+                /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+                #map {
+                    height: 100%;
+                }
+                /* Optional: Makes the sample page fill the window. */
+                html, body {
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                #bodyContent p {
+                    width: 100%;
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin: 0px;
+                    color: #474747;
+                }
+
+                    #bodyContent p a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+
+                h1#firstHeading {
+                    color: #22376b;
+                    width: 100%;
+                    float: left;
+                    margin: 5px 0;
+                }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <!-- Replace the value of the key parameter with your own API key. -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzJ_-0SaYkESyIdIb6SuhO-88ImqNmESs&callback=initMap">
+    </script>
+
+
+</body>
+</HTML>
